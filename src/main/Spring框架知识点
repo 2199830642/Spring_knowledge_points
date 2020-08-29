@@ -1,0 +1,58 @@
+Spring框架知识点
+
+	1.spring概述
+		spring是什么
+			spring是分层的Java SE/EE应用全栈式的轻量级开源框架，以IOC（反转控制）和AOP（面向切面编程）为内核，
+			提供了展现层SpringMVC和持久层Spring JDBC以及业务层事务管理等众多企业级应用技术
+
+		spring的两大核心
+			IOC（反转控制）和AOP（面向切面编程
+
+		spring的发展历程和优势
+			方便解耦，简化开发
+			AOP编程的支持
+			声明式事务的支持
+			方便程序的测试
+			方便集成各种优秀框架
+			降低JavaEE API的使用难度
+
+		spring的体系结构
+
+	2.程序的耦合以及解耦
+		曾经案例中的问题
+		    程序的耦合
+                     耦合：程序间的依赖关系
+                          包括：类之间的依赖
+                               方法间的依赖
+            解耦：降低程序间的依赖关系
+            实际开发中应该做到编译期不依赖，运行时才依赖
+
+            解耦的思路：
+                    第一步：使用反射来创建对象，而避免使用new关键字
+                    第二步：通过读取配置文件，获取要创建的对象的全限定类名
+
+		工厂模式解耦
+            是一个创建Bean对象的工厂
+
+            Bean：在计算机英语中有可重用组件的含义
+            JavaBean:用java语言编写的可重用组件
+                     JavaBean != 实体类   JavaBean范围远大于实体类
+
+              它就是创建service和dao对象的
+              第一个：需要一个配置文件来配置service和dao
+                         配置的内容：唯一标志=全限定类名（key=value）
+
+              第二个：通过读取配置文件中配置的内容反射创建Bean对象
+
+              配置文件可以选用两种方式：xml或properties
+
+
+	3.IOC概念以及Spring中的IOC
+        概念：IOC（Inversion of Control）控制反转，把创建对象的权利交给框架，是框架的重要特征，并非面向对象编程的专用术语
+                它包括依赖注入（Dependency Injection）和依赖查找（Dependency Lookup）
+             削减程序间的耦合
+		Spring中基于XML的IOC环境搭建
+
+	4.依赖注入（Dependency Injection）
+
+	5.作业：
