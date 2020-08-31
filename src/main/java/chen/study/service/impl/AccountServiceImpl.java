@@ -1,7 +1,7 @@
 package chen.study.service.impl;
 
 import chen.study.dao.AccountDao;
-import chen.study.factory.BeanFactory;
+import chen.study.dao.impl.AccountDaoImpl;
 import chen.study.service.AccountService;
 
 /**
@@ -9,8 +9,7 @@ import chen.study.service.AccountService;
  */
 public class AccountServiceImpl implements AccountService {
 
-    //private AccountDao accountDao = new AccountDaoImpl();
-    private AccountDao accountDao = (AccountDao) BeanFactory.getBean("AccountDao");
+    private AccountDao accountDao = new AccountDaoImpl();
 
 
 

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4d7f037-fd4c-4b7e-b020-7955423a54c7" name="默认更改列表" comment="" />
+    <list default="true" id="f4d7f037-fd4c-4b7e-b020-7955423a54c7" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Spring框架知识点" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Spring框架知识点" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chen/study/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chen/study/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chen/study/ui/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chen/study/ui/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chen/study/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chen/study/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chen/study/ui/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chen/study/ui/Client.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,12 +22,20 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -27,6 +45,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ggEw3IahC7pnP0CpR83bTAkgpf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,8 +53,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -104,12 +127,25 @@
       <workItem from="1598604435246" duration="3594000" />
       <workItem from="1598617163592" duration="3138000" />
       <workItem from="1598620653657" duration="1648000" />
-      <workItem from="1598682399513" duration="882000" />
+      <workItem from="1598682399513" duration="8022000" />
+      <workItem from="1598839522925" duration="551000" />
     </task>
+    <task id="LOCAL-00001" summary="自己写beanFactory">
+      <created>1598685888364</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598685888364</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="自己写beanFactory" />
+    <option name="LAST_COMMIT_MESSAGE" value="自己写beanFactory" />
   </component>
   <component name="WindowStateProjectService">
     <state x="48" y="388" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598528534830">
@@ -120,22 +156,50 @@
       <screen x="48" y="23" width="1318" height="745" />
     </state>
     <state x="521" y="118" key="#com.intellij.ide.util.MemberChooser/48.23.1318.745@48.23.1318.745" timestamp="1598605999722" />
-    <state width="1276" height="187" key="GridCell.Tab.0.bottom" timestamp="1598623051800">
+    <state x="307" y="61" key="#项目结构" timestamp="1598841157422">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state width="1276" height="187" key="GridCell.Tab.0.bottom/48.23.1318.745@48.23.1318.745" timestamp="1598623051800" />
-    <state width="1276" height="187" key="GridCell.Tab.0.center" timestamp="1598623051799">
+    <state x="307" y="61" key="#项目结构/48.23.1318.745@48.23.1318.745" timestamp="1598841157422" />
+    <state x="326" y="23" key="CommitChangelistDialog2" timestamp="1598685887756">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state width="1276" height="187" key="GridCell.Tab.0.center/48.23.1318.745@48.23.1318.745" timestamp="1598623051799" />
-    <state width="1276" height="187" key="GridCell.Tab.0.left" timestamp="1598623051798">
+    <state x="326" y="23" key="CommitChangelistDialog2/48.23.1318.745@48.23.1318.745" timestamp="1598685887756" />
+    <state width="1276" height="232" key="GridCell.Tab.0.bottom" timestamp="1598712837891">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state width="1276" height="187" key="GridCell.Tab.0.left/48.23.1318.745@48.23.1318.745" timestamp="1598623051798" />
-    <state width="1276" height="187" key="GridCell.Tab.0.right" timestamp="1598623051799">
+    <state width="1276" height="232" key="GridCell.Tab.0.bottom/48.23.1318.745@48.23.1318.745" timestamp="1598712837891" />
+    <state width="1276" height="232" key="GridCell.Tab.0.center" timestamp="1598712837890">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state width="1276" height="187" key="GridCell.Tab.0.right/48.23.1318.745@48.23.1318.745" timestamp="1598623051799" />
+    <state width="1276" height="232" key="GridCell.Tab.0.center/48.23.1318.745@48.23.1318.745" timestamp="1598712837890" />
+    <state width="1276" height="232" key="GridCell.Tab.0.left" timestamp="1598712837889">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state width="1276" height="232" key="GridCell.Tab.0.left/48.23.1318.745@48.23.1318.745" timestamp="1598712837889" />
+    <state width="1276" height="232" key="GridCell.Tab.0.right" timestamp="1598712837891">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state width="1276" height="232" key="GridCell.Tab.0.right/48.23.1318.745@48.23.1318.745" timestamp="1598712837891" />
+    <state width="1276" height="232" key="GridCell.Tab.1.bottom" timestamp="1598712837894">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state width="1276" height="232" key="GridCell.Tab.1.bottom/48.23.1318.745@48.23.1318.745" timestamp="1598712837894" />
+    <state width="1276" height="232" key="GridCell.Tab.1.center" timestamp="1598712837893">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state width="1276" height="232" key="GridCell.Tab.1.center/48.23.1318.745@48.23.1318.745" timestamp="1598712837893" />
+    <state width="1276" height="232" key="GridCell.Tab.1.left" timestamp="1598712837892">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state width="1276" height="232" key="GridCell.Tab.1.left/48.23.1318.745@48.23.1318.745" timestamp="1598712837892" />
+    <state width="1276" height="232" key="GridCell.Tab.1.right" timestamp="1598712837893">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state width="1276" height="232" key="GridCell.Tab.1.right/48.23.1318.745@48.23.1318.745" timestamp="1598712837893" />
+    <state x="307" y="124" key="Vcs.Push.Dialog.v2" timestamp="1598685901758">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state x="307" y="124" key="Vcs.Push.Dialog.v2/48.23.1318.745@48.23.1318.745" timestamp="1598685901758" />
     <state x="372" y="92" width="670" height="676" key="search.everywhere.popup" timestamp="1598531009488">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
