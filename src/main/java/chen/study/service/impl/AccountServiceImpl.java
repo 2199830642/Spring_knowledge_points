@@ -19,4 +19,10 @@ public class AccountServiceImpl implements AccountService {
         System.out.println(i);
         i++;
     }
+    public void init() {
+        System.out.println("对象初始化了");
+    }
+    public void destroy() {
+        System.out.println("对象销毁了");
+    }
 }

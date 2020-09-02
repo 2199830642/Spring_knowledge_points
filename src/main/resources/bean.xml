@@ -4,6 +4,24 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!--
+        spring中的依赖注入
+            依赖注入：Dependency Injection
+            IOC的作用：降低程序间的耦合（依赖关系）
+            依赖关系的管理都交给了spring来维护
+            在当前类中需要用到其他类的对象，由spring为我们提供，我们只需要在配置文件中说明
+            依赖关系的维护就称之为依赖注入
+
+            依赖注入：
+                能注入的类型有三类
+                    基本类型和String
+                    其他的bean类型（在配置文件或注解配置过的bean）
+                    复杂类型（集合类型）
+                注入的方式有三种
+                    使用构造函数提供
+                    使用set方法提供
+                    使用注解提供
+    -->
+    <!--
         把对象的创建交给spring来管理
         spring对bean的管理细节：
             1.创建bean的的三种方式
@@ -17,6 +35,6 @@
             在spring的配置文件中使用bean标签，配以id和class属性之后，且没有其他属性和标签时
             采用的就是默认构造函数创建bean对象，此时如果类中没有默认构造函数，则对象无法创建
     -->
-    <bean id="accountService" class="chen.study.service.impl.AccountServiceImpl"></bean>
+    <bean id="accountService" class="chen.study.service.impl.AccountServiceImpl" scope="singleton" init-method="init" destroy-method="destroy"></bean>
     <bean id="accountDao" class="chen.study.dao.impl.AccountDaoImpl"></bean>
 </beans>
