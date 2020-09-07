@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4d7f037-fd4c-4b7e-b020-7955423a54c7" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/SpringDay1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDay2/SpringDay2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDay2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDay2/src/main/java/chen/study/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDay2/src/main/java/chen/study/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDay2/src/main/java/chen/study/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDay2/src/main/java/chen/study/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDay2/src/main/java/chen/study/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDay2/src/main/java/chen/study/ui/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDay2/src/main/resources/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringDay2/src/test/java/chen/study/test/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Spring框架知识点2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Spring框架知识点" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Spring框架知识点" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chen/study/dao/impl/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chen/study/dao/impl/AccountDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chen/study/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chen/study/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SpringDay1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Spring框架知识点" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Spring框架知识点1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chen/study/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chen/study/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chen/study/ui/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chen/study/ui/Client.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,48 +67,113 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="模块" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringDay2/src/main/java" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chen.study.dao.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SpringDay2/src/main/java" />
+      <recent name="$PROJECT_DIR$/SpringDay2/src/main/resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chen.study.ui.Client" />
-      <module name="Spring" />
+  <component name="RunManager" selected="JUnit.AccountServiceTest.findAllTest">
+    <configuration name="AccountServiceTest.findAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDay2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chen.study.ui.*" />
+          <option name="PATTERN" value="chen.study.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="chen.study.test" />
+      <option name="MAIN_CLASS_NAME" value="chen.study.test.AccountServiceTest" />
+      <option name="METHOD_NAME" value="findAllTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBCDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chen.study.jdbc.JDBCDemo01" />
-      <module name="Spring" />
+    <configuration name="AccountServiceTest.findDeleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDay2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chen.study.jdbc.*" />
+          <option name="PATTERN" value="chen.study.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="chen.study.test" />
+      <option name="MAIN_CLASS_NAME" value="chen.study.test.AccountServiceTest" />
+      <option name="METHOD_NAME" value="findDeleteTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTest.findOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDay2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chen.study.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chen.study.test" />
+      <option name="MAIN_CLASS_NAME" value="chen.study.test.AccountServiceTest" />
+      <option name="METHOD_NAME" value="findOneTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTest.findSaveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDay2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chen.study.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chen.study.test" />
+      <option name="MAIN_CLASS_NAME" value="chen.study.test.AccountServiceTest" />
+      <option name="METHOD_NAME" value="findSaveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTest.findUpdateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringDay2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chen.study.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chen.study.test" />
+      <option name="MAIN_CLASS_NAME" value="chen.study.test.AccountServiceTest" />
+      <option name="METHOD_NAME" value="findUpdateTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.JDBCDemo01" />
+        <item itemvalue="JUnit.AccountServiceTest.findAllTest" />
+        <item itemvalue="JUnit.AccountServiceTest.findDeleteTest" />
+        <item itemvalue="JUnit.AccountServiceTest.findUpdateTest" />
+        <item itemvalue="JUnit.AccountServiceTest.findSaveTest" />
+        <item itemvalue="JUnit.AccountServiceTest.findOneTest" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +206,14 @@
       <workItem from="1598682399513" duration="8022000" />
       <workItem from="1598839522925" duration="551000" />
       <workItem from="1598845409348" duration="411000" />
-      <workItem from="1599006955473" duration="5511000" />
+      <workItem from="1599006955473" duration="5998000" />
+      <workItem from="1599014899998" duration="32000" />
+      <workItem from="1599015225126" duration="79000" />
+      <workItem from="1599027252730" duration="34000" />
+      <workItem from="1599027356811" duration="5757000" />
+      <workItem from="1599033294162" duration="150000" />
+      <workItem from="1599352920413" duration="9665000" />
+      <workItem from="1599388279982" duration="714000" />
     </task>
     <task id="LOCAL-00001" summary="自己写beanFactory">
       <created>1598685888364</created>
@@ -142,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598845503438</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="spring的IOC的依赖注入">
+      <created>1599014059647</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599014059647</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,41 +245,60 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="自己写beanFactory" />
     <MESSAGE value="spring的IOC知识" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring的IOC知识" />
+    <MESSAGE value="spring的IOC的依赖注入" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring的IOC的依赖注入" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="48" y="388" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598528534830">
+    <state x="307" y="61" key="#Inspections" timestamp="1599359166196">
+      <screen x="47" y="23" width="1319" height="745" />
+    </state>
+    <state x="307" y="61" key="#Inspections/47.23.1319.745@47.23.1319.745" timestamp="1599359166196" />
+    <state x="48" y="388" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599014593822">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state x="48" y="388" key="#com.intellij.fileTypes.FileTypeChooser/48.23.1318.745@48.23.1318.745" timestamp="1598528534830" />
-    <state x="521" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1598605999722">
-      <screen x="48" y="23" width="1318" height="745" />
+    <state x="48" y="388" key="#com.intellij.fileTypes.FileTypeChooser/48.23.1318.745@48.23.1318.745" timestamp="1599014593822" />
+    <state x="520" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1599358930524">
+      <screen x="47" y="23" width="1319" height="745" />
     </state>
+    <state x="520" y="118" key="#com.intellij.ide.util.MemberChooser/47.23.1319.745@47.23.1319.745" timestamp="1599358930524" />
     <state x="521" y="118" key="#com.intellij.ide.util.MemberChooser/48.23.1318.745@48.23.1318.745" timestamp="1598605999722" />
-    <state x="307" y="61" key="#项目结构" timestamp="1598841157422">
+    <state x="446" y="153" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599028184562">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state x="307" y="61" key="#项目结构/48.23.1318.745@48.23.1318.745" timestamp="1598841157422" />
-    <state x="326" y="23" key="CommitChangelistDialog2" timestamp="1598845502706">
+    <state x="446" y="153" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/48.23.1318.745@48.23.1318.745" timestamp="1599028184562" />
+    <state x="306" y="61" key="#项目结构" timestamp="1599356982648">
+      <screen x="47" y="23" width="1319" height="745" />
+    </state>
+    <state x="306" y="61" key="#项目结构/47.23.1319.745@47.23.1319.745" timestamp="1599356982648" />
+    <state x="307" y="61" key="#项目结构/48.23.1318.745@48.23.1318.745" timestamp="1599027624952" />
+    <state x="326" y="23" key="CommitChangelistDialog2" timestamp="1599014059101">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state x="326" y="23" key="CommitChangelistDialog2/48.23.1318.745@48.23.1318.745" timestamp="1598845502706" />
-    <state width="1276" height="187" key="GridCell.Tab.0.bottom" timestamp="1599008608888">
-      <screen x="48" y="23" width="1318" height="745" />
+    <state x="326" y="23" key="CommitChangelistDialog2/48.23.1318.745@48.23.1318.745" timestamp="1599014059101" />
+    <state width="1276" height="187" key="GridCell.Tab.0.bottom" timestamp="1599372561592">
+      <screen x="45" y="23" width="1321" height="745" />
     </state>
-    <state width="1276" height="187" key="GridCell.Tab.0.bottom/48.23.1318.745@48.23.1318.745" timestamp="1599008608888" />
-    <state width="1276" height="187" key="GridCell.Tab.0.center" timestamp="1599008608885">
-      <screen x="48" y="23" width="1318" height="745" />
+    <state width="1276" height="187" key="GridCell.Tab.0.bottom/45.23.1321.745@45.23.1321.745" timestamp="1599372561592" />
+    <state width="1276" height="187" key="GridCell.Tab.0.bottom/47.23.1319.745@47.23.1319.745" timestamp="1599360101625" />
+    <state width="1276" height="187" key="GridCell.Tab.0.bottom/48.23.1318.745@48.23.1318.745" timestamp="1599032143928" />
+    <state width="1276" height="187" key="GridCell.Tab.0.center" timestamp="1599372561591">
+      <screen x="45" y="23" width="1321" height="745" />
     </state>
-    <state width="1276" height="187" key="GridCell.Tab.0.center/48.23.1318.745@48.23.1318.745" timestamp="1599008608885" />
-    <state width="1276" height="187" key="GridCell.Tab.0.left" timestamp="1599008608883">
-      <screen x="48" y="23" width="1318" height="745" />
+    <state width="1276" height="187" key="GridCell.Tab.0.center/45.23.1321.745@45.23.1321.745" timestamp="1599372561591" />
+    <state width="1276" height="187" key="GridCell.Tab.0.center/47.23.1319.745@47.23.1319.745" timestamp="1599360101624" />
+    <state width="1276" height="187" key="GridCell.Tab.0.center/48.23.1318.745@48.23.1318.745" timestamp="1599032143927" />
+    <state width="1276" height="187" key="GridCell.Tab.0.left" timestamp="1599372561589">
+      <screen x="45" y="23" width="1321" height="745" />
     </state>
-    <state width="1276" height="187" key="GridCell.Tab.0.left/48.23.1318.745@48.23.1318.745" timestamp="1599008608883" />
-    <state width="1276" height="187" key="GridCell.Tab.0.right" timestamp="1599008608886">
-      <screen x="48" y="23" width="1318" height="745" />
+    <state width="1276" height="187" key="GridCell.Tab.0.left/45.23.1321.745@45.23.1321.745" timestamp="1599372561589" />
+    <state width="1276" height="187" key="GridCell.Tab.0.left/47.23.1319.745@47.23.1319.745" timestamp="1599360101623" />
+    <state width="1276" height="187" key="GridCell.Tab.0.left/48.23.1318.745@48.23.1318.745" timestamp="1599032143926" />
+    <state width="1276" height="187" key="GridCell.Tab.0.right" timestamp="1599372561592">
+      <screen x="45" y="23" width="1321" height="745" />
     </state>
-    <state width="1276" height="187" key="GridCell.Tab.0.right/48.23.1318.745@48.23.1318.745" timestamp="1599008608886" />
+    <state width="1276" height="187" key="GridCell.Tab.0.right/45.23.1321.745@45.23.1321.745" timestamp="1599372561592" />
+    <state width="1276" height="187" key="GridCell.Tab.0.right/47.23.1319.745@47.23.1319.745" timestamp="1599360101625" />
+    <state width="1276" height="187" key="GridCell.Tab.0.right/48.23.1318.745@48.23.1318.745" timestamp="1599032143927" />
     <state width="1276" height="232" key="GridCell.Tab.1.bottom" timestamp="1598712837894">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
@@ -202,13 +315,25 @@
       <screen x="48" y="23" width="1318" height="745" />
     </state>
     <state width="1276" height="232" key="GridCell.Tab.1.right/48.23.1318.745@48.23.1318.745" timestamp="1598712837893" />
-    <state x="307" y="124" key="Vcs.Push.Dialog.v2" timestamp="1598845506658">
+    <state x="217" y="34" key="SettingsEditor" timestamp="1599033221536">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
-    <state x="307" y="124" key="Vcs.Push.Dialog.v2/48.23.1318.745@48.23.1318.745" timestamp="1598845506658" />
+    <state x="217" y="34" key="SettingsEditor/48.23.1318.745@48.23.1318.745" timestamp="1599033221536" />
+    <state x="307" y="124" key="Vcs.Push.Dialog.v2" timestamp="1599014064088">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state x="307" y="124" key="Vcs.Push.Dialog.v2/48.23.1318.745@48.23.1318.745" timestamp="1599014064088" />
+    <state x="136" y="93" key="new project wizard" timestamp="1599027405024">
+      <screen x="48" y="23" width="1318" height="745" />
+    </state>
+    <state x="136" y="93" key="new project wizard/48.23.1318.745@48.23.1318.745" timestamp="1599027405024" />
     <state x="372" y="92" width="670" height="676" key="search.everywhere.popup" timestamp="1598531009488">
       <screen x="48" y="23" width="1318" height="745" />
     </state>
     <state x="372" y="92" width="670" height="676" key="search.everywhere.popup/48.23.1318.745@48.23.1318.745" timestamp="1598531009488" />
+    <state x="395" y="86" key="spring file set editor" timestamp="1599353602137">
+      <screen x="47" y="23" width="1319" height="745" />
+    </state>
+    <state x="395" y="86" key="spring file set editor/47.23.1319.745@47.23.1319.745" timestamp="1599353602137" />
   </component>
 </project>
